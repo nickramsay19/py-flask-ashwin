@@ -7,6 +7,14 @@ app = Flask(__name__) # Creates an instance of a flask app, with all the utiliti
 def hello_world():
     return 'Hello Ashwin! :)'
 
+# this route allows for GET and POST requests
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        return 'This is a POST request'
+    else:
+        return 'This is a GET request'
+
 '''
     How to run:
 
