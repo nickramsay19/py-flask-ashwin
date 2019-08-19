@@ -5,11 +5,17 @@ app = Flask(__name__) # Creates an instance of a flask app, with all the utiliti
 # this defines a route, and what happens when we visit this route
 @app.route('/') 
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello Ashwin! :)'
 
 '''
     How to run:
-    Enter the following commands into terminal, while in the project directory
+
+    1) Enter the pipenv shell/"container" & install required packages(flask)
+    pipenv install
+    pipenv shell
+    
+    2) Run the server
+    export FLASK_APP=app
     export FLASK_ENV=development
     flask run
 
