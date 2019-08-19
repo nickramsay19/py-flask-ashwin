@@ -32,3 +32,4 @@ Backends essentially coordinate the website
 * Handling user sessions
     * Server might not let you visit certain pages unless you are logged in/have a valid session
     * Server might protect certain routes for administrators only
+* Handling user input such as a web form(e.g. a login form, a search query, etc)
