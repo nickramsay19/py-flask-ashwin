@@ -27,3 +27,8 @@ Backends essentially coordinate the website
 ### Functions of a server
 * Serving the correct page for the correct ROUTE
 * Handling users with login and register + security concerns with user passwords
+* Utilising the database
+* Logging requests somewhere, possibly logging any errors for debugging purposes
+* Handling user sessions
+    * Server might not let you visit certain pages unless you are logged in/have a valid session
+    * Server might protect certain routes for administrators only
